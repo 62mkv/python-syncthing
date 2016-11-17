@@ -138,7 +138,8 @@ class Commands(object):
             set = GetDict(
                 ignores = ('POST', '/db/ignores'),
                 prio =    ('POST', '/db/prio'),
-                scan =    ('POST', '/db/scan')
+                scan =    ('POST', '/db/scan'),
+                override =    ('POST', '/db/override')
             )
         )
         self.stats = GetDict(
